@@ -1,6 +1,6 @@
 ## hh-school-infrastructure67
 
-#Готовый репозиторий с React + TypeScript + Vite, в котором уже настроены:
+# Готовый репозиторий с React + TypeScript + Vite, в котором уже настроены:
 editorconfig
 ESLint
 Prettier
@@ -10,5 +10,5 @@ Husky + lint-staged для запуска линтеров перед комми
 деплой в GitHub Pages через npm-скрипт и GitHub Actions
 пример использования пакета clsx из dependencies
 
-#GitHub Action:
+# GitHub Action:
 автоматически деплоит изменения из ветки master.
