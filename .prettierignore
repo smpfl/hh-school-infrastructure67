@@ -1,3 +1,5 @@
 dist
 node_modules
 coverage
+.omc
+package-lock.json

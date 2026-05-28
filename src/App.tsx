@@ -1,14 +1,7 @@
-import { useState } from 'react';
 import { clsx } from 'clsx';
+import { useState } from 'react';
 
-const stack = [
-  'React JSX',
-  'TypeScript',
-  'ESLint',
-  'Prettier',
-  'Husky',
-  'GitHub Actions',
-];
+const stack = ['React JSX', 'TypeScript', 'ESLint', 'Prettier', 'Husky', 'GitHub Actions'];
 
 export function App() {
   const [clicked, setClicked] = useState(false);
@@ -17,15 +10,11 @@ export function App() {
     <main className="page">
       <section className="card">
         <p>
-          Репозиторий настроен так, чтобы линтеры запускались перед коммитом,
-          типы проверялись через TypeScript, а приложение деплоилось в GitHub
-          Pages.
+          Репозиторий настроен так, чтобы линтеры запускались перед коммитом, типы проверялись через
+          TypeScript, а приложение деплоилось в GitHub Pages.
         </p>
 
-        <button
-          className={clsx('btn', { active: clicked })}
-          onClick={() => setClicked(true)}
-        >
+        <button className={clsx('btn', { active: clicked })} onClick={() => setClicked(true)}>
           Нажми меня
         </button>
 
